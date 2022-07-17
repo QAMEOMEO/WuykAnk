@@ -1,0 +1,271 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Medula+One&family=Montserrat:wght@400;600&family=Shrikhand&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	height: 100%;
+	padding: 8px 0
+}
+.logo img{
+	max-width: 100px;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 0 40px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #E8A6BD;
+	font-size: 24px
+}
+.nav li a:hover{
+	opacity: 0.6
+}
+/*header*/
+
+.main{
+	background: #F4C4D5
+}
+.content h1{
+	font-family: aileron, sans-serif;
+	font-size: 30px;
+	color: #5E7DD9;
+	line-height: 40px;
+}
+.content h2{
+	font-family: 'DM Sans', sans-serif;
+	font-family: 'Medula One', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Shrikhand', cursive;
+	font-size: 54px;
+	color: #F1F2F2;
+	line-height: 50px;
+	letter-spacing: 2px;
+	padding-right: 20px;
+	padding-bottom: 50px
+}
+.content a{
+	font-family: aileron, sans-serif;
+	font-size: 20px
+}
+.btn{
+	color: white;
+	text-decoration: none;
+	padding: 10px 50px;
+	border: 1px solid white;
+	border-radius: 10px
+}
+.btn:hover{
+	opacity: 0.4
+}
+.feature img{
+	border-radius: 40px
+}
+/*banner*/
+
+.logoo img{
+	width: 200px;
+}
+.service p{
+	font-family: aileron, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: bold;
+	color: #E8A6BD;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-bottom: 40px
+}
+.main1{
+	padding: 80px
+}
+.main1 img{
+	border-radius: 100px;
+	background: white;
+	padding: 10px
+}
+.backgound-1{
+	height: 85vh;
+	background: #5E7DD9
+}
+.content-2{
+	padding: 200px 30px
+}
+.content-2 h1{
+	font-family: 'DM Sans', sans-serif;
+	font-family: 'Medula One', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Shrikhand', cursive;
+	font-style: oblique;
+	font-size: 42px;
+	color: #F1F2F2;
+	letter-spacing: 4px;
+}
+.content-2 h2{
+	font-family: aileron, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	color: #F1F2F2;
+	letter-spacing: 4px;
+	padding: 20px 0
+}
+.content-2 p{
+	font-family: aileron, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	color: #F1F2F2;
+	letter-spacing: 2px;
+}
+
+.backgound-2{
+	height: 85vh;
+	background: #F4C4D5
+}
+.content-3{
+	padding: 200px 30px
+}
+.content-3 h1{
+	font-family: 'DM Sans', sans-serif;
+	font-family: 'Medula One', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Shrikhand', cursive;
+	font-style: italic;
+	font-size: 42px;
+	color: #5E7DD9;
+	letter-spacing: 4px;
+}
+.content-3 h2{
+	font-family: aileron, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	color: #5E7DD9;
+	letter-spacing: 4px;
+	padding: 20px 0
+}
+.content-3 p{
+	font-family: aileron, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	color: #5E7DD9;
+	letter-spacing: 2px;
+}
+/*service*/
+.service-2{
+	background: #5E7DD9
+}
+.feature-2 img{
+	width: 350px;
+	height: 300px;
+	border-radius: 20px;
+}
+.content-4{
+	padding: 200px 100px
+}
+.content-4 h1{
+	font-family: 'DM Sans', sans-serif;
+	font-family: 'Medula One', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Shrikhand', cursive;
+	font-style: italic;
+	font-size: 48px;
+	color: #F1F2F2;
+	letter-spacing: 4px;
+}
+.content-4 li{
+	font-family: aileron, sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	color: #F1F2F2;
+	letter-spacing: 2px;
+	line-height: 30px
+}
+/*service2*/
+.service-3{
+	background: #F4C4D5;
+	padding: 50px 0
+}
+.service-3 h1{
+	font-family: 'DM Sans', sans-serif;
+	font-family: 'Medula One', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Shrikhand', cursive;
+	font-style: italic;
+	font-size: 86px;
+	text-align: center;
+	color: #F1F2F2;
+	letter-spacing: 4px;
+}
+.feature-3 img{
+	width: 380px;
+	height: 350px;
+	border-radius: 50px;
+	background: #E8A6BD;
+	padding: 10px
+}
+.feature-3{
+	transition: 3s all ease-in-out
+}
+.feature-3:hover img {
+	transform: scale(1.1);
+}
+/*service3*/
+.mySlides {
+	display:none;
+}
+.service-4{
+	background: #5E7DD9;
+	padding: 30px 0
+}
+/*service4*/
+.footer{
+	background-color: #F4C4D5
+}
+.nav-2 ul{
+	list-style: none;
+}
+.nav-2 li{
+	margin: 0 16px;
+}
+.nav-2 li a{
+	font-family: aileron, sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	text-decoration: none;
+	color: #5E7DD9;
+	font-size: 22px;
+	text-align: right;
+	padding-left: 190px
+}
+.fa {
+  	padding: 20px;
+  	font-size: 30px;
+  	width: 50px;
+  	text-align: center;
+ 	text-decoration: none;
+  	margin: 5px 2px;
+	border-radius: 50%
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
